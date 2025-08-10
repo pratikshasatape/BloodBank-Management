@@ -1,0 +1,56 @@
+.BloodBank-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.BloodBank-container h2 {
+  margin-bottom: 20px;
+  color: #d32f2f;
+  text-align: center;
+}
+
+.BloodBank-form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.BloodBank-form select,
+.BloodBank-form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.BloodBank-form button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.BloodBank-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.BloodBank-table th,
+.BloodBank-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.low-stock {
+  background-color: #fff3f3;
+  color: #b71c1c;
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.top-bar {
+  background-color: #ea141b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+.header-right span {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.loginin a {
+  text-decoration: none;
+  color:red;
+  font-weight: bold;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
